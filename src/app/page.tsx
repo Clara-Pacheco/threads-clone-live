@@ -4,6 +4,8 @@ import LogoThreads from '@/assets/logo_threads.svg'
 import { HomeIcon, Search, PenSquare, Heart, User} from 'lucide-react'
 import Link from 'next/link'
 
+import DropdownMenuHome from './(home)/dropdown/dropdown'
+
 const menus = [
   {
     Logo: HomeIcon,
@@ -54,6 +56,8 @@ export default function Home() {
             )
           })}
         </ul>
+
+        <DropdownMenuHome />
 
       </nav>
       

@@ -16,6 +16,12 @@ module.exports = {
       },
     },
     extend: {
+      colors : {
+        threads : {
+          "bg-default": "#101010",
+          "text": "f3f5f7"
+        }
+      },
       keyframes: {
         "accordion-down": {
           from: { height: 0 },
