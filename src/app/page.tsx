@@ -5,6 +5,7 @@ import { HomeIcon, Search, PenSquare, Heart, User} from 'lucide-react'
 import Link from 'next/link'
 
 import DropdownMenuHome from './(home)/dropdown/dropdown'
+import HomePost from './(home)/post/post'
 
 const menus = [
   {
@@ -60,6 +61,14 @@ export default function Home() {
         <DropdownMenuHome />
 
       </nav>
+
+      <article className='max-w-lg m-auto'>
+        <section>
+          <HomePost />
+        </section>
+
+        <hr className='mt-4 h-1 text-neutral-800 opacity-80' />
+      </article>
       
     </main>
   )
