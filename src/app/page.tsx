@@ -119,7 +119,7 @@ export default function Home() {
           </div>
 
           <div className={styles.post}>
-            <p>
+            <p className="text-white">
               Recomendar o NextJS ou remix como default way para criar um app
               react foi o melhor conselho que o core team poderia fazer. No
               começo eu torci o nariz, mas hoje vejo que é o que mais faz
@@ -128,7 +128,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className={cn(styles.actions,"flex gap-2 mt-3" )}>
+          <div className={cn(styles.actions,"flex gap-2 mt-3 text-white" )}>
             <Heart />
             <MessageCircle />
             <Repeat2 />
